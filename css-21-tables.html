@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tables</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+        }
+
+        th{
+            background-color: royalblue;
+            color: white;
+        }
+
+        th, td{
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even){
+            background-color: #e6e6e6;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Tablas en CSS</h1>
+
+    <table>
+
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+
+        <tr>
+            <td>Oscar</td>
+            <td>22</td>
+            <td>Chiquimula</td>
+        </tr>
+
+        <tr>
+            <td>Ana</td>
+            <td>20</td>
+            <td>Guatemala</td>
+        </tr>
+
+        <tr>
+            <td>Carlos</td>
+            <td>25</td>
+            <td>Zacapa</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
