@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 20px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        img{
+            width: 180px;
+            float: left;
+            margin-right: 15px;
+            border-radius: 10px;
+        }
+
+        .cajas{
+            margin-top: 40px;
+            overflow: auto;
+        }
+
+        .caja{
+            float: left;
+            width: 120px;
+            padding: 20px;
+            margin-right: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .rojo{
+            background-color: red;
+        }
+
+        .amarillo{
+            background-color: goldenrod;
+        }
+
+        .verde{
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Propiedad Float</h1>
+
+    <img src="https://picsum.photos/180" alt="Imagen">
+
+    <p>
+        Esta imagen utiliza <strong>float: left;</strong>, por lo que el texto se acomoda alrededor de ella. Esta propiedad es muy útil cuando se desea colocar imágenes junto a un texto o cuando se necesitan organizar elementos uno al lado del otro.
+    </p>
+
+    <div class="cajas">
+
+        <div class="caja rojo">Caja 1</div>
+
+        <div class="caja amarillo">Caja 2</div>
+
+        <div class="caja verde">Caja 3</div>
+
+    </div>
+
+</body>
+</html>
