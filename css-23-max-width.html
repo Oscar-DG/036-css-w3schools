@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Max Width</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .width{
+            width: 500px;
+            margin: 20px auto;
+            border: 3px solid green;
+            padding: 15px;
+            background-color: white;
+        }
+
+        .max-width{
+            max-width: 500px;
+            margin: 20px auto;
+            border: 3px solid blue;
+            padding: 15px;
+            background-color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Propiedad Max-Width</h1>
+
+    <div class="width">
+        Esta caja utiliza <strong>width: 500px;</strong>. Si la pantalla es más pequeña, puede aparecer una barra de desplazamiento horizontal.
+    </div>
+
+    <div class="max-width">
+        Esta caja utiliza <strong>max-width: 500px;</strong>. Se adapta mejor a diferentes tamaños de pantalla.
+    </div>
+
+</body>
+</html>
