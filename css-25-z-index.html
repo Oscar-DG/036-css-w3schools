@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS z-index</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .contenedor{
+            position: relative;
+            width: 500px;
+            height: 250px;
+            margin: 30px auto;
+        }
+
+        .caja1{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            left: 20px;
+            top: 20px;
+            z-index: 1;
+        }
+
+        .caja2{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            background-color: lightgreen;
+            left: 80px;
+            top: 60px;
+            z-index: 2;
+        }
+
+        .caja3{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            background-color: salmon;
+            left: 140px;
+            top: 100px;
+            z-index: 3;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Propiedad z-index</h1>
+
+    <div class="contenedor">
+
+        <div class="caja1">z-index: 1</div>
+
+        <div class="caja2">z-index: 2</div>
+
+        <div class="caja3">z-index: 3</div>
+
+    </div>
+
+</body>
+</html>
