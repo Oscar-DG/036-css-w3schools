@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .block{
+            display: block;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .inline{
+            display: inline;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        .inline-block{
+            display: inline-block;
+            background-color: orange;
+            width: 150px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .none{
+            display: none;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Propiedad Display en CSS</h1>
+
+    <div class="block">
+        Este elemento utiliza display: block.
+    </div>
+
+    <span class="inline">
+        Este elemento utiliza display: inline.
+    </span>
+
+    <br><br>
+
+    <div class="inline-block">
+        Inline-Block
+    </div>
+
+    <div class="inline-block">
+        Otro elemento
+    </div>
+
+    <p class="none">
+        Este texto está oculto con display: none.
+    </p>
+
+</body>
+</html>
