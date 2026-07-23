@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .caja{
+            width: 300px;
+            height: 120px;
+            border: 2px solid black;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: white;
+        }
+
+        .visible{
+            overflow: visible;
+        }
+
+        .hidden{
+            overflow: hidden;
+        }
+
+        .scroll{
+            overflow: scroll;
+        }
+
+        .auto{
+            overflow: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Propiedad Overflow</h1>
+
+    <h3>Overflow: visible</h3>
+    <div class="caja visible">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque saepe recusandae molestiae, expedita voluptatem, officia minima porro asperiores rem pariatur aliquid provident tempore quae.
+    </div>
+
+    <h3>Overflow: hidden</h3>
+    <div class="caja hidden">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque saepe recusandae molestiae, expedita voluptatem, officia minima porro asperiores rem pariatur aliquid provident tempore quae.
+    </div>
+
+    <h3>Overflow: scroll</h3>
+    <div class="caja scroll">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque saepe recusandae molestiae, expedita voluptatem, officia minima porro asperiores rem pariatur aliquid provident tempore quae.
+    </div>
+
+    <h3>Overflow: auto</h3>
+    <div class="caja auto">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse doloremque saepe recusandae molestiae, expedita voluptatem, officia minima porro asperiores rem pariatur aliquid provident tempore quae.
+    </div>
+
+</body>
+</html>
