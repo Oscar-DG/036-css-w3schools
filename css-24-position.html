@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .static{
+            position: static;
+            border: 3px solid green;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .relative{
+            position: relative;
+            left: 30px;
+            border: 3px solid blue;
+            padding: 10px;
+            margin: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Propiedad Position</h1>
+
+    <div class="static">
+        Este elemento utiliza <strong>position: static</strong>.
+    </div>
+
+    <div class="relative">
+        Este elemento utiliza <strong>position: relative</strong> y se mueve 30px hacia la derecha.
+    </div>
+
+</body>
+</html>
