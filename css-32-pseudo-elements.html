@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-elementos</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 20px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p::first-letter{
+            font-size: 35px;
+            color: red;
+            font-weight: bold;
+        }
+
+        p::first-line{
+            color: blue;
+        }
+
+        h2::before{
+            content: "⭐ ";
+        }
+
+        h2::after{
+            content: " ✔";
+            color: green;
+        }
+
+        li::marker{
+            color: royalblue;
+        }
+
+        ::selection{
+            background-color: yellow;
+            color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Pseudo-elementos en CSS</h1>
+
+    <p>
+        Este párrafo sirve para demostrar cómo funcionan los pseudo-elementos
+        en CSS. La primera letra y la primera línea tendrán un estilo diferente.
+    </p>
+
+    <h2>Título de ejemplo</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+</body>
+</html>
