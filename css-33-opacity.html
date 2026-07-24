@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Opacity</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1{
+            margin-bottom: 30px;
+        }
+
+        img{
+            width: 250px;
+            opacity: 0.5;
+            transition: opacity 0.3s;
+            border-radius: 10px;
+        }
+
+        img:hover{
+            opacity: 1;
+        }
+
+        .caja{
+            width: 300px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(65, 105, 225, 0.4);
+            border: 2px solid royalblue;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Propiedad Opacity</h1>
+
+    <img src="https://picsum.photos/250" alt="Imagen de ejemplo">
+
+    <div class="caja">
+        Este cuadro utiliza un color de fondo con transparencia usando <strong>rgba()</strong>, mientras que el texto permanece completamente visible.
+    </div>
+
+</body>
+</html>
