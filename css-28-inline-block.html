@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inline Block</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1{
+            margin-bottom: 30px;
+        }
+
+        .caja{
+            display: inline-block;
+            width: 150px;
+            height: 80px;
+            background-color: royalblue;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin-top: 40px;
+            background-color: lightgray;
+        }
+
+        li{
+            display: inline-block;
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+
+        li:hover{
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Display Inline-Block</h1>
+
+    <div class="caja">Caja 1</div>
+    <div class="caja">Caja 2</div>
+    <div class="caja">Caja 3</div>
+
+    <h2>Menú Horizontal</h2>
+
+    <ul>
+        <li>Inicio</li>
+        <li>Servicios</li>
+        <li>Nosotros</li>
+        <li>Contacto</li>
+    </ul>
+
+</body>
+</html>
