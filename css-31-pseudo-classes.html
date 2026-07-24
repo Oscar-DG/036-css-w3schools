@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-clases</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 20px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        a:link{
+            color: blue;
+        }
+
+        a:visited{
+            color: purple;
+        }
+
+        a:hover{
+            color: red;
+        }
+
+        a:active{
+            color: green;
+        }
+
+        input:focus{
+            border: 2px solid royalblue;
+            outline: none;
+        }
+
+        li:first-child{
+            font-weight: bold;
+            color: darkred;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Pseudo-clases en CSS</h1>
+
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            Visitar Google
+        </a>
+    </p>
+
+    <br>
+
+    <input type="text" placeholder="Escribe aquí">
+
+    <br><br>
+
+    <ul>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ul>
+
+</body>
+</html>
